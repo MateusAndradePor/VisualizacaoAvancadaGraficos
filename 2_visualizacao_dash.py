@@ -60,4 +60,4 @@ df = pd.read_csv('../dados/clientes-v3.csv')
 # Executa o app
 if __name__ == '__main__':
     app = criar_app(df)
-    app.run(debug=True, port=8050) # default
+    app.run(debug=True, port=8050) # default port
